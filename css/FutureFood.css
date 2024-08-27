@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+.wrapper{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    color: #000000;
+}
+
+.bigImage{
+    width:100% ;
+    height: auto;
+    opacity: 100%;
+    
+}
+
+.mainTitle{
+    position: absolute;
+    top: 30%;
+    left:38%;
+    right: 30px;
+    transform: translate(-60%,-120%);
+    color: #213477;
+    font-size: 102px;
+    font-weight: bold;
+    background-color: none;
+    border-radius: 5px;
+    white-space: nowrap   
+}
+
+.subTitle{
+    position: absolute;
+    top: 30%;
+    left:38%;
+    right: 30px;
+    transform: translate(-60%,350%);
+    color: rgb(177, 52, 3);
+    font-size: 38px;
+    background-color: none;
+    border-radius: 5px;
+    white-space: nowrap   
+}
+
+
+
+header{
+    position: relative;
+}
+
+footer{
+    flex-shrink: 0;
+    background-color: #07154a;
+    color: #fff;
+    padding: 10px 50px 50px 100px;
+    display: flex;
+    justify-content: center; 
+ }
+
+ footer a {
+    color: #1076b0;
+ }
+
+.footer-column {
+    padding: 1rem;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.Adress{
+    color: #1076b0;
+}
+
+.footer-content div{
+    margin: 5px 0px;
+}
+nav {
+    background-color: #07154a;
+    padding: 10px;
+    /* display: flex; */
+}
+nav ul {
+    list-style-type: sq;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a {
+    /* color: #fff; */
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.navOption {
+    color: #fff;
+}
+
+.navOptionSelected {
+    color: rgb(255, 191, 0);
+}
+
+menu {
+    padding: 23px 10px 10px 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    display: inline-block;
+    width: 50%;
+   
+}
+menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+menu li {
+    margin-bottom: 15px;
+}
+
+menu li a {
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.menuOption {
+    color: #4791bc;
+}
+
+.menuOptionSelected {
+    background-color: #4791bc;
+    color: #fff;
+}
+
+.pageContent{
+    display: flex;
+    width:100%;
+    height:100%;
+}
+
+.rightSide{
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+.logoImage{
+    position: absolute;
+    top: 3px;
+    left: 32px;
+    max-height:40px;
+}
+
+.mediumImage{
+    max-width:500px;  
+}
+
+.mainText{
+    margin: 35px;
+}
+ 
